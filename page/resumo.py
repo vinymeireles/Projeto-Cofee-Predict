@@ -86,8 +86,8 @@ def show():
                 producao_total = df_selecionado['Producao'].sum()
                 produtividade = df_selecionado['Produtividade'].mean()
                 area_producao = df_selecionado['Area em Producao'].sum()
-                media_producao = df_selecionado['Producao'].mean()
-                media_area = df_selecionado['Area em Producao'].mean()
+                media_producao = (df_selecionado['Producao'].sum())/24
+                media_area = (df_selecionado['Area em Producao'].sum())/24
                 
             # Usando a função para calcular o percentual de produtividade
             produtividade_percent = calcular_produtividade_percentual(df, estado, ano_selecionado)
@@ -99,10 +99,10 @@ def show():
             col0, col1 = st.columns(2)
             with col0:
                 st.metric("Ano de Produção", f"{ano_selecionado}")
-                st.metric("Produção Total", f"{producao_total:.2f} mil sacas") 
+                st.metric("Produção Total", f"{producao_total:.0f} mil sacas") 
             with col1:    
                 st.metric("Produtividade Média", f"{produtividade:.2f} sacas/ha") 
-                st.metric("Área de Produção", f"{area_producao:.2f} ha") 
+                st.metric("Área de Produção", f"{area_producao:.0f} ha") 
         
                                    
             col0, col1= st.columns(2)
