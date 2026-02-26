@@ -52,15 +52,29 @@ A solução disponibiliza os resultados em uma interface intuitiva, permitindo q
 
 ## 🖥️ Interface do Sistema
 
-(imagem do dashboard)
+<p align="center">
+  <img src="img/01.png" width="420"/>
+  <img src="img/02.png" width="420"/>
+</p>
+
+<p align="center">
+  <img src="img/03.png" width="420"/>
+  <img src="img/04.png" width="420"/>
+</p>
+
+<p align="center">
+  <img src="img/05.png" width="420"/>
+  <img src="img/Mapa ES.png" width="420"/>
+</p>
 
 ---
 
 ## 📊 Modelo Preditivo
 
-(imagem de gráfico)
-
----
+<p align="center">
+  <img src="img/07.png" width="420"/>
+  <img src="img/08.png" width="420"/>
+</p>
 
 ## ⚙️ Arquitetura Analítica
 
