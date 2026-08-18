@@ -52,28 +52,28 @@ A solução disponibiliza os resultados em uma interface intuitiva, permitindo q
 
 ## 🖥️ Interface do Sistema
 
-<p align="center">
-  <img src="img/01.png" width="420"/>
-  <img src="img/02.png" width="420"/>
+<p align="left">
+  <img src="img/01.png" width="800"/>
+  <img src="img/02.png" width="800"/>
 </p>
 
-<p align="center">
-  <img src="img/03.png" width="420"/>
-  <img src="img/04.png" width="420"/>
+<p align="left">
+  <img src="img/03.png" width="800"/>
+  <img src="img/04.png" width="800"/>
 </p>
 
-<p align="center">
-  <img src="img/05.png" width="420"/>
-  <img src="img/Mapa ES.png" width="420"/>
+<p align="left">
+  <img src="img/05.png" width="800"/>
+  <img src="img/Mapa ES.png" width="800"/>
 </p>
 
 ---
 
 ## 📊 Modelo Preditivo
 
-<p align="center">
-  <img src="img/07.png" width="420"/>
-  <img src="img/08.png" width="420"/>
+<p align="left">
+  <img src="img/07.png" width="800"/>
+  <img src="img/08.png" width="800"/>
 </p>
 
 ## ⚙️ Arquitetura Analítica
@@ -93,6 +93,11 @@ Realiza análises geolocalizadas por cidade e região produtora.
 Apresenta indicadores e previsões de forma visual e interpretável.
 
 Essa estrutura garante previsões consistentes, replicáveis e compreensíveis.
+
+### Pipeline de dados
+<p align="left">
+  <img src="img/Diagrama de Pipeline.png" width="800"/>
+ </p>
 
 ---
 
